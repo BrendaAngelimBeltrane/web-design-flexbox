@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+    
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+header{
+    display: flex;
+    padding: 5px 5px 0 5px;
+    background-color: black; 
+}
+
+header nav {
+    display: none;
+}
+
+header img {
+    height: 50px;
+    margin-left: 90px;
+}   
+
+header i {
+    color: white;
+    font-size: 30px;
+}
+
+section {
+    margin: 0 10px;
+}
+
+#principal {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 2px dotted grey;
+    margin-bottom: 25px;
+}
+
+figure img {
+    width: 90vw;
+    margin: 10px 0;
+}
+
+article {
+    position: relative;
+}
+
+article h2 {
+    color: orangered;
+    font-size: 30px;
+}
+
+article p {
+    color: grey;
+}
+
+article a {
+    display: flex;
+    margin: 20px 0;
+    padding: 5px 10px;
+    width: 90px;
+    color: white;
+    background-color: orangered;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.quadrados {
+    border: 1px solid grey;
+}
+
+article h3 {
+    background-color: orangered;
+    color: white;
+    padding: 4px;
+}
+
+article img {
+  float: left;
+  margin: 5px 5px 10px 5px;
+}
+
+#meio {
+    display: flex;
+    flex-direction: column;
+}
+
+.p {
+   margin: 10px 5px;
+}
+
+footer {
+    margin-top: 30px;
+    background-color: black;
+}
+
+footer p {
+    color: grey;
+    text-align: center;
+    padding: 0 0 10px 0;
+}
+
+footer img {
+    position: relative;
+    left: 20px;
+    bottom: 20px;
+    margin-top: 5px;
+}
+
+
+
