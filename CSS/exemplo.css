@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+    
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+
+    padding: 0 10%;
+
+    background-color: black;
+}
+
+header img {
+    height: 9vh;
+    margin-top: 5px;
+}
+
+header nav {
+    display: flex;
+    height: 9vh;
+}
+
+header nav a {
+    width: 90px;
+    text-align: center;
+    padding: 40px 10px 10px 10px;
+    color: white;
+    text-decoration: none;
+}
+
+/* pseudo-classe (ação específica pra tag
+Hover=quando o mouse passa por cima acontece... */
+
+header nav a:hover {
+    background-color: #fe3500;
+    border-radius: 0 0 15px 15px;
+}
+
+/*Mobile*/
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header nav {
+    display: none;
+}
+
+header i {
+    color: white;
+}
+
+figure img {
+    width: 80%;
+    justify-content: center;
+
+}
+
+
+
+
+
+
+
+
+@media screen and (min-width: 320px) {
+   
+}
+

@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
-    
+ /* Mobile */
+
 * {
     margin: 0;
     padding: 0;
@@ -109,5 +110,89 @@ footer img {
     margin-top: 5px;
 }
 
+/* Ipad - Tablet */
 
+@media screen and (min-width: 768px) {
 
+    header {
+        height: 100px;
+    }
+
+    header img {
+        height: 100px;
+        margin-left: 250px;
+    }
+
+    header i {
+        font-size: 50px;
+    }
+
+    figure img {
+        width: 70vw;
+        margin-left: 80px;
+    }
+
+    article h2 {
+        font-size: 50px;
+    }
+
+    article p {
+        font-size: 25px;
+    }
+
+    article a {
+        width: 140px;
+        font-size: 28px;
+    }
+
+    article h3 {
+        font-size: 30px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    header i {
+        text-decoration: transparent;
+    }
+
+    header {
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 0 10%;
+    }
+
+    header nav {
+        display: flex;
+        height: 9vh;
+    }
+        
+    header nav a {
+        width: 90px;
+        text-align: center;
+        padding: 40px 10px 10px 10px;
+        color: white;
+        text-decoration: none;
+    }
+
+    header nav a:hover {
+        background-color: #fe3500;
+        border-radius: 0 0 15px 15px;
+    } 
+
+    figure img {
+        width: 30vw;
+        margin: 30px 30px 30px 0;
+    }
+
+    section {
+        padding: 0 120px;
+    }
+    
+    #principal {
+        flex-direction: row;
+    }
+
+    #p1 {
+        
+    }
+}
