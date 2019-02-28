@@ -62,6 +62,10 @@ header i {
     font-size: 30px;
 }
 
+main {
+    padding: 0 10px;
+}
+
 #principal {
     display: flex;
     flex-direction: column;
