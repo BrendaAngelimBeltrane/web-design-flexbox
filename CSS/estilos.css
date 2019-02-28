@@ -14,9 +14,43 @@ header{
     background-color: black; 
 }
 
-header nav {
-    display: none;
+header input {
+    display: none; 
 }
+
+header input:checked ~ nav {
+    top: 54px;
+}
+
+header nav {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0 10%;
+    padding-bottom: 5px;
+    position: absolute;
+    top: -100%;
+    left: 0%;
+    background-color: black;
+
+    transition: top 1.2s;
+}
+
+header nav a{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+header nav label {
+    color: orangered;
+    text-align: right;
+}
+
+header nav a:hover {
+    background-color: #fe3500;
+    border-radius: 5px;
+} 
 
 header img {
     height: 50px;
@@ -127,6 +161,14 @@ footer img {
         font-size: 50px;
     }
 
+    header nav a{
+        font-size: 30px;
+    }
+
+    header nav label {
+        font-size: 40px;
+    }
+
     figure img {
         width: 70vw;
         margin-left: 80px;
@@ -152,26 +194,37 @@ footer img {
 
 @media screen and (min-width: 992px) {
     header i {
-        text-decoration: transparent;
+        display: none !important;
     }
 
     header {
-    align-items: flex-start;
-    justify-content: space-between;
-    padding: 0 10%;
+        align-items: flex-start;
+        justify-content: space-between;
+        padding: 0 10%;
+    }
+
+    header img {
+        margin: 0;
+        position: absolute;
     }
 
     header nav {
-        display: flex;
-        height: 9vh;
+        position: static;
+        flex-direction: row;
+        width: auto;
     }
-        
+    
+    header nav label {
+        display: none;
+    }
+
     header nav a {
         width: 90px;
         text-align: center;
         padding: 40px 10px 10px 10px;
         color: white;
         text-decoration: none;
+        font-size: 15px;
     }
 
     header nav a:hover {
@@ -180,8 +233,8 @@ footer img {
     } 
 
     figure img {
-        width: 30vw;
-        margin: 30px 30px 30px 0;
+        width: 35vw;
+        margin: 30px 100px 30px 0;
     }
 
     section {
@@ -192,7 +245,20 @@ footer img {
         flex-direction: row;
     }
 
-    #p1 {
-        
+    #texto1 {
+        margin: 40px 30px 0 0;
     }
+
+    h2 {
+        margin-bottom: 30px;
+    }
+
+    #meio {
+        flex-direction: row;
+    }
+
+   
+
+   
 }
+
