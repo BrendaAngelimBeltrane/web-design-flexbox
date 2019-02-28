@@ -5,15 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Header Exemplo FlexBox</title>
-    <link rel="stylesheet" href="CSS/estilos.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+    <link rel="stylesheet" href="CSS/estilos.css">
+    
 </head>
 <body>
     <header>
-        <i class="fas fa-bars"></i>
+        <label for="menu" style="color:white">
+            <i class="fas fa-bars "></i>
+        </label>
+
+        <input type="checkbox" id="menu">
+        
         <img src="Imagens/logo.PNG" alt="logotipo">
 
         <nav>
+            <label for="menu">X</label>
             <a href="#">Home</a>
             <a href="#">Empresa</a>
             <a href="#">Serviços</a>
@@ -29,7 +36,7 @@
             <img src="Imagens/banner.png" alt="">
         </figure>
 
-        <article>
+        <article id="texto1">
             <h2>Crie seu site agora mesmo</h2>
             <p id="p1">Lorem ipsum dolor sit amet, consectetur adipisicing 
                elit. Fugiat, illo voluptas. Sit mollitia sequi nulla 
@@ -41,7 +48,7 @@
                 nihil soluta quasi saepe tempore fugiat quaerat non 
                 perspiciatis, sint laboriosam dignissimos necessitatibus 
                 placeat magnam.</p>
-            <a href="#">Leia Mais</a>
+            <a href="#" id="botao">Leia Mais</a>
         </article>
         </section>
 
