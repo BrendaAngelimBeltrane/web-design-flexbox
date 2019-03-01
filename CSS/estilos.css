@@ -192,6 +192,8 @@ footer img {
     }
 }
 
+/* Desktop */
+
 @media screen and (min-width: 992px) {
     header i {
         display: none !important;
@@ -256,11 +258,27 @@ footer img {
     #meio {
         flex-direction: row;
         justify-content: space-between;
+        margin-bottom: 10px;
     }
 
     .quadrados {
         width: 30%;
     }
-
 }
+
+/* Telas largas */
+
+@media screen and (min-width: 1800px) {
+    header, main, footer {
+        max-width: 1850px;
+        margin: 0 auto;
+    }
+
+    figure img {
+        max-width: 900px;;
+    }
+
+    
+}
+
 
